@@ -3,9 +3,9 @@ How to Customize Tooltips using ggplotly
 
 One of the features I like the most about the `plotly::ggplotly()`
 function is tooltips. As soon as hover over a point on a scatterplot or
-a column on a bar chart these tooltips pop up and show you - by default
-- the values of the x and y variable. This is already nice but what
-makes this really powerful is the ability to customize the tooltip text.
+a column on a bar chart these tooltips pop up and show you by default
+the values of the x and y variable. This is already nice but what makes
+this really powerful is the ability to customize the tooltip text.
 
 Imagine you want to create a bar chart. In addition to the count that
 the bar height represents you would like to display the percentage that
