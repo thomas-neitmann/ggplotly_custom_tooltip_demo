@@ -14,7 +14,7 @@ create an additional variable in your dataset that contains the text you
 would like to display. Let’s call this variable `custom_tooltip`. To
 display this custom tooltip you have to do two things. First, when
 creating your ggplot you need to assign this variable to the `text`
-aesthetic, e.g. `ggplot2::aes(text = my_tooltip)`. Second, inside of
+aesthetic, e.g. `ggplot2::aes(text = custom_tooltip)`. Second, inside of
 `plotly::ggplotly()` you need to set the tooltip argument to “text”,
 e.g. `plotly::ggplotly(my_plot, tooltip = "text")`. That way you map the
 `text`aesthetic to the tooltip.
